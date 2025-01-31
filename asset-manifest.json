@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/stroopstrata/Shutterstockdesign.git/static/css/main.27d594ae.css",
+    "main.js": "/stroopstrata/Shutterstockdesign.git/static/js/main.2b0752c7.js",
+    "index.html": "/stroopstrata/Shutterstockdesign.git/index.html",
+    "main.27d594ae.css.map": "/stroopstrata/Shutterstockdesign.git/static/css/main.27d594ae.css.map",
+    "main.2b0752c7.js.map": "/stroopstrata/Shutterstockdesign.git/static/js/main.2b0752c7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.27d594ae.css",
+    "static/js/main.2b0752c7.js"
+  ]
+}
