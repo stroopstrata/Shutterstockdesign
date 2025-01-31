@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    font-family: Roboto, Roboto-fallback,Arial;
+    background-color: #f3ebdb;
+}
+.main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.bar {
+    display: flex;
+    flex-direction: column;
+  }
+.bar>*{
+    width: 30px;
+    height: 4px;
+    background-color: black;
+    margin: 4px 0;
+}
+
+hr{
+    width:10%;
+    margin-left: 0px;
+    border: 4px solid black;
+    border-radius: 20px;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.menu {
+    display: flex;
+    gap: 50px;
+}
+
+.menu a {
+    text-decoration: none;/*removes unnecessary underlines*/
+    color: black;
+}
+
+.design {
+    font-size: 4em;
+    font-weight: bolder;
+    padding-top: 0px;
+    padding-bottom: 0;
+    padding-left: 60px;
+}
+.dot-design{
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+}
+.dot-design>.circle{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    margin-left: 10px;
+    padding-right: 0;
+}
+.dot-design>.circle>div{
+    height: 6px;
+    width: 6px;
+    margin:5px;
+    border: 3px solid black;
+    border-radius: 50%;
+}
+#middle-circle{
+    background-color: black;
+}
+.year{
+    font-weight: bold;
+    align-self: flex-end;
+    margin-right: 40px;
+    padding-top: 1px;
+    margin-top: 1px;
+    margin-bottom: 0;
+}
+.content {
+    display: flex;
+    justify-content: flex-end;
+    height: 250px;
+    margin-top: 0px;
+}
+
+.left-box {
+    background-color: #B8E5F4;
+    flex: 1;
+    padding: 70px;
+}
+
+.right-box {
+    background-color: #F8AFC9;
+    flex: 1;
+    padding: 70px;
+    position: relative;
+}
+.right-box>p{
+    width: 50%;
+}
+.sign-in {
+    position: absolute;
+    bottom: 100px;
+    right: 40px;
+    padding: 10px 20px;
+    border: 2px solid white;
+    color: white;
+    font-weight: bold;
+    background: transparent;
+}
